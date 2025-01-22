@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;4w-400&display=swap" rel="stylesheet">
+    <title>Home/X</title>
+</head>
+
+<body class="bg-black text-white font-chirpe">
+    <div class="main flex md:container mx-auto m-3">
+        <!-- first starting -->
+        <div class="first w-20 md:w-[40%] md:ml-8">
+            <div class="sidebar space-y-4 w-16 sticky top-0 mt-2">
+                <div class="logo contents  md:ml-[-99px] mt-5 ">
+                    <img class="w-8 invert" src="assets/images/logo.svg" alt="">
+                </div>
+                <div class="icons flex flex-col justify-center items-baseline ">
+                    <ul class="space-y-2 flex flex-col items-center md:items-start w-55 mr-3">
+                        <li
+                            class="flex justify-start p-2 font-bold hover:bg-gray-500 hover:bg-opacity-30 hover:transition-all w-fit md:text-xs md:pr-5 hover:rounded-full hover:cursor-pointer items-center gap-3">
+                            <span><img class="w-6 invert" src="assets/images/home.svg" alt=""></span><span
+                                class="hidden md:block">Home</span>
+                        </li>
+                        <li
+                            class="flex justify-start p-2 font-bold hover:bg-gray-500 hover:bg-opacity-30 hover:transition-all w-fit md:text-xs md:pr-5 hover:rounded-full hover:cursor-pointer items-center gap-3">
+                            <span><img class="w-6 invert" src="assets/images/search.svg" alt=""></span><span
+                                class="hidden md:block">Explore</span>
+                        </li>
+                        <li
+                            class="flex justify-start p-2 font-bold hover:bg-gray-500 hover:bg-opacity-30  hover:transition-all w-fit md:text-xs md:pr-5 hover:rounded-full hover:cursor-pointer items-center gap-3">
+                            <span><img class="w-6 invert" src="assets/images/notify.svg" alt=""></span><span
+                                class="hidden md:block">Notifications</span>
+                        </li>
+                        <li
+                            class="flex justify-start p-2 font-bold hover:bg-gray-500 hover:bg-opacity-30 hover:transition-all w-fit md:text-xs md:pr-5 hover:rounded-full hover:cursor-pointer items-center gap-3">
+                            <span><img class="w-6 " src="assets/images/message.svg" alt=""></span><span
+                                class="hidden md:block">Messages</span>
+                        </li>
+                        <li
+                            class="flex justify-start p-2 font-bold hover:bg-gray-500 hover:bg-opacity-30 hover:transition-all w-fit md:text-xs md:pr-5 hover:rounded-full hover:cursor-pointer items-center gap-3">
+                            <span><img class="w-6 invert" src="assets/images/grok.svg" alt=""></span><span
+                                class="hidden md:block">Grok</span>
+                        </li>
+                        <li
+                            class="flex justify-start p-2 font-bold hover:bg-gray-500 hover:bg-opacity-30 hover:transition-all w-fit md:text-xs md:pr-5 hover:rounded-full hover:cursor-pointer items-center gap-3">
+                            <span><img class="w-6 " src="assets/images/list.svg" alt=""></span><span
+                                class="hidden md:block">Lists</span>
+                        </li>
+                        <li
+                            class="flex justify-start p-2 font-bold hover:bg-gray-500 hover:bg-opacity-30 hover:transition-all w-fit md:text-xs md:pr-5 hover:rounded-full hover:cursor-pointer items-center gap-3">
+                            <span><img class="w-6 invert" src="assets/images/bookmark.svg" alt=""></span><span
+                                class="hidden md:block">Bookmarks</span>
+                        </li>
+                        <li
+                            class="flex justify-start p-2 font-bold hover:bg-gray-500 hover:bg-opacity-30 hover:transition-all w-fit md:text-xs md:pr-5 hover:rounded-full hover:cursor-pointer items-center gap-3">
+                            <span><img class="w-6 invert" src="assets/images/community.svg" alt=""></span><span
+                                class="hidden md:block">Communities</span>
+                        </li>
+                        <li
+                            class="flex justify-start p-2 font-bold hover:bg-gray-500 hover:bg-opacity-30 hover:transition-all w-fit md:text-xs md:pr-5 hover:rounded-full hover:cursor-pointer items-center gap-3">
+                            <span><img class="w-8 invert" src="assets/images/permium.svg" alt=""></span><span
+                                class="hidden md:block">Premium</span>
+                        </li>
+                        <li
+                            class="flex justify-start p-2 font-bold hover:bg-gray-500 hover:bg-opacity-30 hover:transition-all w-fit md:text-xs md:pr-5 hover:rounded-full hover:cursor-pointer items-center gap-3">
+                            <span><img class="w-6 invert" src="assets/images/profile.svg" alt=""></span><span
+                                class="hidden md:block">Profile</span>
+                        </li>
+                        <li
+                            class="flex justify-start p-2 pb-3 font-bold hover:bg-gray-500 hover:bg-opacity-30 hover:transition-all w-fit md:text-xs md:pr-5 hover:rounded-full hover:cursor-pointer items-center gap-3">
+                            <span><img class="w-6 invert" src="assets/images/more.svg" alt=""></span><span
+                                class="hidden md:block">More</span>
+                        </li>
+                        <button class="bg-sky-600 hover:bg-sky-500 transition-all hover:cursor-pointer text-white rounded-full md:w-[120px] lg:w-40 md:flex justify-center items-center text-lg h-12 font-bold hidden ">
+                            Post </button>
+                    </ul>
+                    <div class="profile mt-24 hidden md:block">
+                        <div class="item1 flex flex-row items-center px-4 py-3 justify-between  space-x-4">
+                            <div class="w-12"><img class="rounded-full hover:cursor-pointer"
+                                    src="assets/follow/WhatsApp Image 2024-09-22 at 00.21.19_eb200590.jpg" alt=""></div>
+                            <div class=" hidden lg:block">
+                                <div class="font-bold hover:cursor-pointer">Saad</div>
+                                <div class="text-zinc-500 text-sm hover:cursor-pointer">@dev.bysaad</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- first section khatam hogaya -->
+        <div class="second border-[0.5px] border-x-gray-900  border-y-black min-h-[90vh] w-full">
+            <div class="heading">
+                <div class="top flex mb-2 relative">
+                    <div
+                        class="absolute bg-sky-400 w-16 h-1 rounded-full z-20 bottom-[-10px] hover:cursor-pointer left-[120px]">
+                    </div>
+                    <div class=" w-full flex justify-center h-10 items-center hover:cursor-pointer font-bold text-lg ">
+                        For
+                        You</div>
+                    <div class=" w-full flex justify-center h-10 items-center hover:cursor-pointer font-bold text-lg ">
+                        Following</div>
+                    <div class=" mr-4 flex justify-center items-center hover:cursor-pointer"><img class="invert w-12"
+                            src="assets/images/setting.svg" alt=""></div>
+                </div>
+                <div class="h-[1px] bg-gray-900"></div>
+                <div class="twitte flex mt-3 mb-1 mx-3">
+                    <div class="w-12"><img class="rounded-full hover:cursor-pointer"
+                            src="assets/follow/WhatsApp Image 2024-09-22 at 00.21.19_eb200590.jpg" alt=""></div>
+                    <input class="outline-none pl-7 w-full bg-black text-white" type="search"
+                        placeholder="Whats is happening?!">
+                </div>
+                <div class="waring twitte flex ml-24 hover:cursor-pointer mb-4">
+                    <div><img src="assets/images/earth.svg" alt=""></div>
+                    <div class="text-sky-600 ">Everyone can reply</div>
+                </div>
+                <div class="flex justify-center items-center">
+                    <div class="h-[1px] w-10/12  bg-gray-900"></div>
+                </div>
+                <div class="flex lg:flex-row flex-col   md:ml-24 space-x-6 lg:justify-between justify-center space-y-4 m-4">
+                    <div class="imgsss flex space-x-6 w-6">
+                        <img class="hover:cursor-pointer" src="assets/images/gallery.svg" alt="">
+                        <img class="hover:cursor-pointer" src="assets/images/gif.svg" alt="">
+                        <img class="hover:cursor-pointer" src="assets/images/line.svg" alt="">
+                        <img class="hover:cursor-pointer" src="assets/images/emoji.svg" alt="">
+                        <img class="hover:cursor-pointer" src="assets/images/reminder.svg" alt="">
+                        <img class="hover:cursor-pointer" src="assets/images/location.svg" alt="">
+                    </div>
+                    <div class="bg-sky-600 hover:bg-sky-500 transition-all hover:cursor-pointer text-white rounded-full  py-2 px-6 font-normal flex justify-center items-center ">
+                        Post</div>
+                </div>
+            </div>
+            <div class="h-[1px]  bg-gray-900"></div>
+            <div class="showMore py-3 flex justify-center items-center text-gray-500 hover:cursor-pointer">Show 70 posts
+            </div>
+            <div class="h-[1px]  bg-gray-900"></div>
+            <div class="posts ">
+                <div class="post1  mt-2 flex">
+                    <div class="profile flex">
+                        <div class="Detail ">
+                            <div class="flex flex-wrap justify-start items-center ml-3 mb-0 space-x-2">
+                                <div class="w-12"><img class="rounded-full hover:cursor-pointer"
+                                        src="assets/follow/WhatsApp Image 2024-09-22 at 00.21.19_eb200590.jpg" alt="">
+                                </div>
+                                <span class="font-bold hover:cursor-pointer hover:underline">Muhammad Saad </span>
+                                <div class="tick"><img src="assets/images/blueTick.svg" alt=""></div>
+                                <span class="text-zinc-500 text-sm hover:cursor-pointer">@dev.bysaad . 6h</span>
+                                <div><img src="assets/images/threeDot.svg" alt=""></div>
+                                <div class="title pl-[47px] pt-[-10px]">ReactJS | Modern Animated Website </div>
+                            </div>
+                            <div class="content flex flex-col justify-center items-center m-2">
+                                <img class="w-[90%] rounded-2xl" src="assets/content/picture/1p.avif" alt="">
+
+                            </div>
+                            <div class="button flex justify-around m-3">
+                                <img class="hover:cursor-pointer invert" src="assets/images/comment.svg.svg" alt="">
+                                <img class="hover:cursor-pointer invert" src="assets/images/repost.svg" alt="">
+                                <img class="hover:cursor-pointer invert" src="assets/images/like.svg.svg" alt="">
+                                <img class="hover:cursor-pointer invert" src="assets/images/repeat.svg" alt="">
+                                <img class="hover:cursor-pointer invert" src="assets/images/saved.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="h-[1px]  bg-gray-900"></div>
+                <div class="post2  mt-2 flex">
+                    <div class="profile flex">
+                        <div class="Detail ">
+                            <div class="flex flex-wrap justify-start items-center ml-3 mb-0 space-x-2">
+                                <div class="w-12"><img class="rounded-full hover:cursor-pointer"
+                                        src="assets/follow/WhatsApp Image 2024-09-22 at 00.21.19_eb200590.jpg" alt="">
+                                </div>
+                                <span class="font-bold hover:cursor-pointer hover:underline">Muhammad Saad </span>
+                                <div class="tick"><img src="assets/images/blueTick.svg" alt=""></div>
+                                <span class="text-zinc-500 text-sm hover:cursor-pointer">@dev.bysaad . 6h</span>
+                                <div><img src="assets/images/threeDot.svg" alt=""></div>
+                                <div class="title pl-[47px] pt-[-10px]">Get JOB READY in 6 Months with AI-Powered Cohort
+                                    and Expert Guidance</div>
+                            </div>
+                            <div class="content flex flex-col justify-center items-center m-2">
+                                <img class="w-[90%] rounded-2xl" src="assets/content/picture/2p.avif" alt="">
+                            </div>
+                            <div class="button flex justify-around m-3">
+                                <img class="hover:cursor-pointer invert" src="assets/images/comment.svg.svg" alt="">
+                                <img class="hover:cursor-pointer invert" src="assets/images/repost.svg" alt="">
+                                <img class="hover:cursor-pointer invert" src="assets/images/like.svg.svg" alt="">
+                                <img class="hover:cursor-pointer invert" src="assets/images/repeat.svg" alt="">
+                                <img class="hover:cursor-pointer invert" src="assets/images/saved.svg" alt="">
+                            </div>
+                         </div>
+                    </div>
+                </div>
+
+                <div class="h-[1px] bg-gray-900"></div>
+                <div class="post3  mt-2 flex">
+                    <div class="profile flex">
+                        <div class="Detail ">
+                            <div class="flex flex-wrap justify-start items-center ml-3 mb-0 space-x-2">
+                                <div class="w-12"><img class="rounded-full hover:cursor-pointer"
+                                        src="assets/follow/WhatsApp Image 2024-09-22 at 00.21.19_eb200590.jpg" alt="">
+                                </div>
+                                <span class="font-bold hover:cursor-pointer hover:underline">Muhammad Saad </span>
+                                <div class="tick"><img src="assets/images/blueTick.svg" alt=""></div>
+                                <span class="text-zinc-500 text-sm hover:cursor-pointer">@dev.bysaad . 6h</span>
+                                <div><img src="assets/images/threeDot.svg" alt=""></div>
+                                <div class="title pl-[47px] pt-[-10px]">React Native Full Course for Beginners | Build
+                                    Your First Mobile App in 4 Hours! </div>
+                            </div>
+                            <div class="content flex flex-col justify-center items-center m-2">
+                                <img class="w-[90%] rounded-2xl" src="assets/content/picture/3p.avif" alt="">
+
+                            </div>
+                            <div class="button flex justify-around m-3">
+                                <img class="hover:cursor-pointer invert" src="assets/images/comment.svg.svg" alt="">
+                                <img class="hover:cursor-pointer invert" src="assets/images/repost.svg" alt="">
+                                <img class="hover:cursor-pointer invert" src="assets/images/like.svg.svg" alt="">
+                                <img class="hover:cursor-pointer invert" src="assets/images/repeat.svg" alt="">
+                                <img class="hover:cursor-pointer invert" src="assets/images/saved.svg" alt="">
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="h-[1px] bg-gray-900"></div>
+                <div class="post4  mt-2 flex">
+                    <div class="profile flex">
+                        <div class="Detail ">
+                            <div class="flex flex-wrap justify-start items-center ml-3 mb-0 space-x-2">
+                                <div class="w-12"><img class="rounded-full hover:cursor-pointer"
+                                        src="assets/follow/WhatsApp Image 2024-09-22 at 00.21.19_eb200590.jpg" alt="">
+                                </div>
+                                <span class="font-bold hover:cursor-pointer hover:underline">Muhammad Saad </span>
+                                <div class="tick"><img src="assets/images/blueTick.svg" alt=""></div>
+                                <span class="text-zinc-500 text-sm hover:cursor-pointer">@dev.bysaad . 6h</span>
+                                <div><img src="assets/images/threeDot.svg" alt=""></div>
+                                <div class="title pl-[47px] pt-[-10px]">Complete Placement Roadmap for your Dream
+                                    Package</div>
+                            </div>
+                            <div class="content flex flex-col justify-center items-center m-2">
+                                <img class="w-[90%] rounded-2xl" src="assets/content/picture/4p.avif" alt="">
+
+                            </div>
+                            <div class="button flex justify-around m-3">
+                                <img class="hover:cursor-pointer invert" src="assets/images/comment.svg.svg" alt="">
+                                <img class="hover:cursor-pointer invert" src="assets/images/repost.svg" alt="">
+                                <img class="hover:cursor-pointer invert" src="assets/images/like.svg.svg" alt="">
+                                <img class="hover:cursor-pointer invert" src="assets/images/repeat.svg" alt="">
+                                <img class="hover:cursor-pointer invert" src="assets/images/saved.svg" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="h-[1px] bg-gray-600"></div>
+            </div>
+        </div>
+        <!-- second section khatam hogaya -->
+        <div class="third h-96 w-full hidden md:block sticky top-0">
+            <div class="search">
+                <div class="relative w-full">
+                    <input class="w-[70%] rounded-full py-1 px-8 mt-2 mx-4 bg-[#16181c] text-white hover:cursor-pointer"
+                        placeholder="Search">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                        class="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 mt-1 ml-2 text-gray-400"
+                        fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M11 4a7 7 0 017 7 7 7 0 11-14 0 7 7 0 017-7z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-4.35-4.35" />
+                    </svg>
+                </div>
+            </div>
+            <div class="premium bg-[#16181c] w-[70%] mt-2 mx-4 space-y-2 rounded-2xl">
+                <h1 class="text-xl font-bold pt-2 px-3 ">Subscribe to Premium</h1>
+                <div class="item1 px-4 p-3 hover:bg-zinc-4w-400 ">
+                    <div class="text-zinc-500 text-sm hover:cursor-pointer">Subscribing to unlock new features and
+                        if eligible, receive a share of ads revenue.</div>
+                    <div
+                        class="bg-sky-600 hover:bg-sky-400 hover:transition-all hover:cursor-pointer rounded-full text-white w-28 h-10 flex justify-center items-center mt-2 font-bold py-1 px-3">
+                        Subscribe</div>
+                </div>
+            </div>
+
+            <div class="whats bg-[#16181c] w-[70%] mt-2 mx-4 space-y-2 rounded-2xl">
+                <h1 class="text-xl font-bold pt-2 px-3 ">What's Happening</h1>
+                <div class="item1 px-4 p-3 hover:bg-zinc-4w-400 ">
+                    <div class="text-zinc-500 text-sm hover:cursor-pointer">Trending in Pakistan</div>
+                    <div class="font-bold hover:cursor-pointer">#weStandwithPalestine</div>
+                    <div class="text-zinc-500 text-sm hover:cursor-pointer">3.6M Posts</div>
+                </div>
+                <div class="item2 px-4 p-3 hover:bg-zinc-4w-400 ">
+                    <div class="text-zinc-500 text-sm hover:cursor-pointer">Trending in myHouse</div>
+                    <div class="font-bold hover:cursor-pointer">#tailwindcss</div>
+                    <div class="text-zinc-500 text-sm hover:cursor-pointer">396K Posts</div>
+                </div>
+                <div class="item3 px-4 p-3 hover:bg-zinc-4w-400 hover:rounded-b-2xl">
+                    <div class="text-zinc-500 text-sm hover:cursor-pointer">Trending in Punjab</div>
+                    <div class="font-bold hover:cursor-pointer">#rajabWinsAward</div>
+                    <div class="text-zinc-500 text-sm hover:cursor-pointer">6M Posts</div>
+                </div>
+            </div>
+
+            <div class="who bg-[#16181c] w-[70%] mt-2 mx-4  rounded-2xl ">
+                    <h1 class="text-xl font-bold px-3">Who To Follow</h1>
+    
+    
+                    <div class="item p-3 items-center gap-2 flex justify-between hover:bg-gray-800 cursor-pointer">
+                        <div class="flex gap-3">
+    
+                            <div class="p1"><img class="w-12 h-12"
+                                    src="https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/apple-touch-icon-256x256.png"
+                                    alt="vercel"></div>
+                            <div class="p2 ">
+                                <div>Vercel</div>
+                                <div class="text-gray-500">@vercel</div>
+                            </div>
+                        </div>
+    
+                        <div class="p3">
+                            <button class="bg-white text-black px-5 py-2 rounded-full font-bold">Follow</button>
+                        </div>
+    
+                    </div>
+                    <div class="item p-3 items-center gap-2 flex justify-between hover:bg-gray-800 cursor-pointer">
+                        <div class="flex gap-3">
+    
+                            <div class="p1"><img class="w-12 h-12"
+                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbAmafdPNr9fd0KC0Z98WYEC7Wl1wYlPVf-A&s"
+                                    alt="vercel"></div>
+                            <div class="p2 ">
+                                <div>React</div>
+                                <div class="text-gray-500">@react</div>
+                            </div>
+                        </div>
+    
+                        <div class="p3">
+                            <button class="bg-white text-black px-5 py-2 rounded-full font-bold">Follow</button>
+                        </div>
+    
+                    </div>
+                    <div class="item p-3 items-center gap-2 flex justify-between hover:bg-gray-800 cursor-pointer">
+                        <div class="flex gap-3">
+    
+                            <div class="p1"><img class="w-12 h-12"
+                                    src="https://shadejs.dev/shadejs.svg"
+                                    alt="vercel"></div>
+                            <div class="p2 ">
+                                <div>Shad.js</div>
+                                <div class="text-gray-500">@shad</div>
+                            </div>
+                        </div>
+    
+                        <div class="p3">
+                            <button class="bg-white text-black px-5 py-2 rounded-full font-bold">Follow</button>
+                        </div>
+    
+                    </div>
+                    <div class="text-blue-600 px-3 cursor-pointer hover:underline my-5">Show More</div>
+                </div>
+    
+                <div class="terms sticky top-[84vh] m-3 text-xs text-gray-500 px-3  w-1/2 py-5   space-y-1">
+                    <span class="hover:underline cursor-pointer mr-2">Terms of Service</span>
+                    <span class="hover:underline cursor-pointer mr-2">Privacy Policy</span>
+                    <span class="hover:underline cursor-pointer mr-2">Cookie Policy</span>
+                    <span class="hover:underline cursor-pointer mr-2">Accessibility</span>
+                    <span class="hover:underline cursor-pointer mr-2">Ads info</span>
+                    <span class="hover:underline cursor-pointer mr-2">More</span>
+                    <span class="hover:underline cursor-pointer mr-2">© 2024 X Corp.</span>
+                </div>
+            </div>
+        </div>
+            <!-- third section khatam hogaya -->
+         
+    </div>
+
+
+</body>
+
+</html>
